@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>3d</title>
+<link rel="stylesheet" href="demo-styles.css">
+</head>
+<body >
+  <div id="card" class="card" style="width: 100%; margin: auto;">
+    <!-- All you need to put beautiful, interactive 3D content on your site: -->
+    
+    
+    
+    <div>
+        <model-viewer id="modelViewer" style="width: 100%; min-height: 400px; height: 580px; margin: auto;background-color: transparent;--poster-color: transparent;" src="0ee319b9-4b55-4fd7-8eb5-fe02f22e3b22 (2).glb" camera-controls poster="poster.png" camera-orbit="0.6deg 85.59deg 2.90m">
+            <button id="tags1" class="Hotspot" style="display: none;" slot="hotspot-1" data-position="-4.219786982638499m -4.530273095820943m -15.263182487668022m" data-normal="0.9999999999996715m -5.7729632323745426e-8m -8.087084829912897e-7m" data-visibility-attribute="visible">
+                <!--<div class="HotspotAnnotation">SAC</div>-->
+                <div class="HotspotAnnotation" >
+                    <a target="_parent" href="/conhecaacentral/#/sacPage">SAC</a>
+                </div>
+            </button>
+            <button id="tags2" class="Hotspot" style="display: none;" slot="hotspot-2" data-position="4.524311013785898m -0.04787698574364185m -0.2880517979716162m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+                <!--<div class="HotspotAnnotation">Corretora</div>-->
+                <div class="HotspotAnnotation">
+                    <a target="_parent" href="/conhecaacentral/#/gestaoPessPage">Adm. e Serviços de Pessoal</a>
+                </div>
+            </button>
+            <button id="tags3" class="Hotspot" style="display: none;" slot="hotspot-3" data-position="11.349795662240403m 0.33161879137341543m 3.0365825574786744m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+                <!--<div class="HotspotAnnotation">Corretora</div>-->
+                <div class="HotspotAnnotation">
+                    <a target="_parent" href="/conhecaacentral/#/corretoraPage">Corretora</a>
+                </div>
+            </button>
+            <button id="tags4" class="Hotspot" style="display: none;" slot="hotspot-4" data-position="-3.0648682773896083m -4.213578855262134m -20.44739454460977m" data-normal="0.996470208744503m 0.08394714458921854m -6.024193630880324e-8m" data-visibility-attribute="visible">
+                <!--<div class="HotspotAnnotation">Solver</div>-->
+                <div class="HotspotAnnotation">
+                    <a target="_parent" href="/conhecaacentral/#/solverPage">Solver</a>
+                </div>
+            </button>
+            <button id="tags5" class="Hotspot" style="display: none;" slot="hotspot-5" data-position="-9.325308332030591m 5.093793679621397m 13.863598376676304m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+                <!--<div class="HotspotAnnotation">CSTI Microinformática</div>-->
+                <div class="HotspotAnnotation">
+                    <a target="_parent" href="/conhecaacentral/#/cstiOperacionalPage">CSTI Operacional e TA</a>
+                </div>
+            </button>
+            <button id="tags6" class="Hotspot" style="display: none;" slot="hotspot-6" data-position="-9.142881068237571m 4.948926827656776m 7.468175027126189m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+                <!--<div class="HotspotAnnotation">CSTI Microinformática</div>-->
+                <div class="HotspotAnnotation">
+                    <a target="_parent" href="/conhecaacentral/#/cstiMicroInformaticaPage">CSTI Microinformática</a>
+                </div>
+            </button>
+        </model-viewer>
+        <!--<div class="gif">
+            <div class="gif-content">
+                <img class="static" src="https://dvjj74ei9ufbg.cloudfront.net/gif_aila_frame.png" style="width: 400px; background-color: transparent;">
+                <img class="active" src="https://dvjj74ei9ufbg.cloudfront.net/gif_aila.gif" style="width: 310px; background-color: transparent;">
+            </div>
+        </div>-->
+    </div>
+
+    <!--<div class="expandir" style="height: 50px;">
+        <button id="hotspotButton" class="Abrir" slot="hotspot-one" data-position="10m 0m 0m" data-normal="...">
+            Expandir
+        </button>
+    </div>-->
+    
+    
+    <script>
+        hotspotButton.addEventListener('click', () => {
+            if(modelViewer.loaded){
+                document.getElementById("tags1").style.display="none";
+                document.getElementById("tags2").style.display="none";
+                document.getElementById("tags3").style.display="none";
+                document.getElementById("tags4").style.display="none";
+                document.getElementById("tags5").style.display="none";
+                document.getElementById("tags6").style.display="none";
+                modelViewer.currentTime = 0;
+	            modelViewer.play();
+	            t=modelViewer.duration - 0.1;
+	            t=t*1000 ;
+	            setTimeout(stop, t);
+            }
+            
+        });
+        function stop(){
+            //const modelViewer = document.querySelector('#modelViewer');
+            modelViewer.pause();
+            document.getElementById("tags1").style.display="block";
+            document.getElementById("tags2").style.display="block";
+            document.getElementById("tags3").style.display="block";
+            document.getElementById("tags4").style.display="block";
+            document.getElementById("tags5").style.display="block";
+            document.getElementById("tags6").style.display="block";
+        }
+    </script>
+  </div>
+  <!-- Loads <model-viewer> for modern browsers: -->
+  <script type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+  </script>
+
+  <!-- Loads <model-viewer> for old browsers like IE11: -->
+  <script nomodule
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+  </script>
+</body>
+</html>
