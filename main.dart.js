@@ -74189,7 +74189,7 @@ k=A.dN(g,l*0.02,g)
 o=h.ue(d,h.d>400&&l>800?17:15.2)
 j=h.e
 i=A.dN(g,j*0.02,g)
-return new A.p0(b,A.b4(g,A.f3(A.b([s,n,m,k,o,i,h.ue(c,h.d>400&&j>800?17:15.2),A.dN(g,h.e*0.08,g)],p),B.an,B.bE,B.a5),g,g,g,r,g,g,q),g)},
+return new A.p0(b,A.b4(g,A.f3(A.b([s,n,m,k,o,i,h.ue(c,h.d>400&&j>800?17:15.2),A.dN(g,h.e*0.02,g)],p),B.an,B.bE,B.a5),g,g,g,r,g,g,q),g)},
 ws(){var s=null,r=this.j0(),q=this.j0()
 return A.b4(s,A.aoL(A.e_(this.j0()/2),A.aoz(new A.ab3(),B.xq,s,"https://media.giphy.com/media/26xBu1PjOPhbMARkk/giphy.gif",new A.ab4(),s)),s,s,s,r,s,s,q)},
 j0(){var s=this,r=s.d
