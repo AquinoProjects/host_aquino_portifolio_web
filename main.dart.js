@@ -74261,7 +74261,7 @@ p=A.bJ(m,m,B.i,m,m,m,m,m,m,m,m,18,m,m,m,m,m,!0,m,m,m,m,m,m,m,m)
 o=A.bJ(m,m,B.i,m,m,m,m,m,m,m,m,18,m,m,m,m,m,!0,m,m,m,m,m,m,m,m)
 p=A.apl(A.b4(m,A.Au(B.cR,A.b([new A.bI(B.d6,i,m),new A.bI(B.d6,A.A1(n.r,B.i,20,A.HF(m,m,m,m,m,m,m,m,!0,new A.dy(4,A.e_(15),B.dX),m,m,m,m,m,m,m,m,m,m,new A.dy(4,A.e_(15),B.cW),m,m,m,m,m,o,"Assunto",m,m,m,m,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m),m,1,p,new A.ab_()),m),new A.bI(B.BA,A.A1(n.w,B.m,20,B.Cs,200,2,A.bJ(m,m,B.m,m,m,m,m,m,m,m,m,18,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),new A.ab0()),m)],q),B.fm,B.a9,B.cR),m,m,m,m,m,m,r/1.1),n.x)
 o=n.d
-return A.b4(m,A.f3(A.b([s,A.b4(m,A.Au(B.fl,A.b([p,A.b4(m,A.ald(B.wD,new A.ab1(n),A.V3(m,m,new A.d_(new A.O(l),t.Fv),m,m,m,m,m,new A.d_(B.IX,t.Ww),m,m,m,m,new A.d_(new A.cS(A.e_(25),B.w),t.zC),m,m,m,m,m,m)),m,m,m,m,m,m,o/1.2)],q),B.wN,B.X,B.wM),m,m,m,m,m,m,r)],q),B.an,B.bE,B.a5),m,m,m,k-100,m,m,j)},
+return A.b4(m,A.f3(A.b([s,A.b4(m,A.Au(B.fl,A.b([p,A.b4(m,A.ald(B.wD,new A.ab1(n),A.V3(m,m,new A.d_(new A.O(l),t.Fv),m,m,m,m,m,new A.d_(B.IX,t.Ww),m,m,m,m,new A.d_(new A.cS(A.e_(25),B.w),t.zC),m,m,m,m,m,m)),m,m,m,m,m,m,o/1.2)],q),B.wN,B.X,B.wM),m,m,m,m,m,m,r)],q),B.an,B.bE,B.a5),m,m,m,k,m,m,j)},
 hY(a){return this.acO(a)},
 acO(a){var s=0,r=A.Y(t.yq),q
 var $async$hY=A.U(function(b,c){if(b===1)return A.V(c,r)
@@ -74402,7 +74402,7 @@ s.toString
 s=A.dn("Desenvolvimento de sites, jogos e aplicativos.",i,i,i,i,A.oT(s),B.aL,i)
 k=j.c
 k.toString
-return new A.p0(g,A.b4(i,A.f3(A.b([o,p,q,r,new A.bI(B.Bl,s,i),A.dn(h,i,i,i,i,A.oT(k),B.aL,i)],l),B.an,B.aT,B.a5),i,i,i,m-100,i,i,n),i)},
+return new A.p0(g,A.b4(i,A.f3(A.b([o,p,q,r,new A.bI(B.Bl,s,i),A.dn(h,i,i,i,i,A.oT(k),B.aL,i)],l),B.an,B.aT,B.a5),i,i,i,m,i,i,n),i)},
 j0(){var s=this,r=s.d
 if(r>1600&&s.e>800)return 400
 else if(r>1300&&s.e>600)return 350
