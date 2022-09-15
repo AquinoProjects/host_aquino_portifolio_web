@@ -74162,7 +74162,7 @@ c_(a){return a.f!=this.f}}
 A.p_.prototype={
 H(a){return new A.x8(new A.aaK(this),null)}}
 A.aaK.prototype={
-$2(a,b){var s=b.b>715&&a.K(t.w).f.a.b>700,r=this.a
+$2(a,b){var s=b.b>715&&a.K(t.w).f.a.b>500,r=this.a
 if(s)return r.c
 else return r.d},
 $S:451}
