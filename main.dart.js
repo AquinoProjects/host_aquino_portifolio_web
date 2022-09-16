@@ -74169,7 +74169,7 @@ $S:451}
 A.uw.prototype={
 ad(){return new A.M6(null,null,B.k)}}
 A.M6.prototype={
-H(a){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f="De forma independente, atuo com o desenvolvimento de software de ponta a ponta, desde o levantamento de requisitos com as partes envolvidas no projeto, prototipa\xe7\xe3o, codifica\xe7\xe3o no lado do cliente e servidor.\n\nMeu objetivo \xe9 aliar as expectativas de meus clientes \xe0s necessidades de seu p\xfablico alvo.",e="Reunir Informa\xe7\xf5es - Depois de alinhadas as ideias, \xe9 feito uma pesquisa para refer\xeancias, possibilitando reunir o m\xe1ximo de informa\xe7\xf5es poss\xedveis para realizar um trabalho assertivo.",d="Prototipagem - Utilizando boas pr\xe1ticas de design, ser\xe3o reunidos alguns modelos de telas e interfaces para combinar o que mais faz sentido para os projetos.",c="Desenvolvimento - Com a aprova\xe7\xe3o de informa\xe7\xf5es e feito a prototipagem, os projetos s\xe3o desenvolvidos com tecnologias de ponta do mercado, seguindo boas pr\xe1ticas de programa\xe7\xe3o, otimizando o projeto.",b=t.w
+H(a){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f="De forma independente, atuo com o desenvolvimento de software de ponta a ponta, desde o levantamento de requisitos com as partes envolvidas no projeto, prototipa\xe7\xe3o, codifica\xe7\xe3o no lado do cliente e servidor.\n\nMeu objetivo \xe9 aliar as expectativas de meus clientes \xe0s necessidades de seu p\xfablico alvo.",e="Informa\xe7\xf5es - Depois de alinhadas \xe0s ideias, partimos para a pesquisa de refer\xeancias, possibilitando reunir o m\xe1ximo de informa\xe7\xf5es poss\xedveis para realizar um trabalho assertivo.",d="Projeto - Nessa etapa ser\xe3o reunidos alguns modelos de telas e interfaces para combinar o que mais faz sentido para os projetos.",c="Desenvolvimento - Com a aprova\xe7\xe3o do projeto, come\xe7a a etapa de desenvolvimento, utilizando tecnologias como Dart, Flutter, Unity, Firebase, Javascript, Html5, Css3, entre outras.",b=t.w
 h.e=a.K(b).f.a.b
 b=a.K(b).f.a.a
 h.d=b
@@ -74183,14 +74183,14 @@ q=h.d
 r=h.e
 s=h.ud(f,q>400&&r>800?17:15.2)
 o=h.e
-n=A.dM(g,o*0.02,g)
+n=A.dM(g,o*0.03,g)
 m=h.ud(e,h.d>400&&o>800?17:15.2)
 l=h.e
-k=A.dM(g,l*0.02,g)
+k=A.dM(g,l*0.03,g)
 o=h.ud(d,h.d>400&&l>800?17:15.2)
 j=h.e
-i=A.dM(g,j*0.02,g)
-return new A.p_(b,A.b6(g,A.f3(A.b([s,n,m,k,o,i,h.ud(c,h.d>400&&j>800?17:15.2),A.dM(g,h.e*0.02,g)],p),B.an,B.bE,B.a5),g,g,g,r,g,g,q),g)},
+i=A.dM(g,j*0.03,g)
+return new A.p_(b,A.b6(g,A.f3(A.b([s,n,m,k,o,i,h.ud(c,h.d>400&&j>800?17:15.2),A.dM(g,h.e*0.03,g)],p),B.an,B.bE,B.a5),g,g,g,r,g,g,q),g)},
 wr(){var s=null,r=this.iZ(),q=this.iZ()
 return A.b6(s,A.aoL(A.e_(this.iZ()/2),A.aoz(new A.ab3(),B.xq,s,"https://media.giphy.com/media/26xBu1PjOPhbMARkk/giphy.gif",new A.ab4(),s)),s,s,s,r,s,s,q)},
 iZ(){var s=this,r=s.d
